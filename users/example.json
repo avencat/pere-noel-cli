@@ -1,0 +1,12 @@
+{
+  "age": 23,
+  "biography": "Toto is a young developer who lives in Bordeaux. He's Foo's husband.",
+  "email": "toto@bar.com",
+  "firstName": "Toto",
+  "lastName": "Bar",
+  "sex": false,
+  "slug": "toto_bar",
+  "exclusions": [
+    "foo_bar"
+  ]
+}
