@@ -25,7 +25,7 @@ function formatHtmlMessage(sender, receiver) {
 
 <p>Pour ce Noël 🎄, j'ai décidé de te confier la lourde ${sender.sex ? '🏋️‍♀️' : '🏋️‍♂️'} responsabilité d'offrir un cadeau à <strong>${receiver.firstName} ${receiver.lastName}</strong> !</p>
 
-<p>${receiver.biography.replace('\n', '<br>')}</p>
+<p>${receiver.biography.replace(/\n/g, '<br>')}</p>
 
 <p>Pour la conception, ne t'inquiète pas, j'ai bien conscience que c'est ta première journée en tant que stagiaire et que tu ne seras sûrement pas le meilleur artisan d'ici Noël ! ☺️ Néanmoins, si tu arrives à confectionner quelque chose, c'est tout à ton honneur ! 😏</p>
 ${formatHtmlMessageRules()}
